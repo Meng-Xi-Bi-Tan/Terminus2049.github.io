@@ -34,7 +34,7 @@ layout: default
         <a href="{{ site.baseurl }}/sticky/2018/04/01/how-to-participate-in-terminus.html">【置顶】如何协作参与端点星计划</a>
       </h2>
 
-      <div clsss="meta">
+      <div class="meta">
         <span class="date">
           2018-04-01
         </span>
@@ -107,13 +107,3 @@ layout: default
     </span>
   {% endif %}
 </div>
-
-{% if paginator.page == 1 %}
-
-<form method="POST" action="https://formspree.io/terminus2049@protonmail.com">
-  <input type="email" name="email" placeholder="邮箱" style="line-height:2; min-width:220px;" required/>
-  <input type="text" name="message" placeholder="留言（可选）" style="line-height:2; min-width:220px;">
-  <button type="submit" style="line-height:2;">邮件订阅</button>
-</form>
-
-{% endif %}
